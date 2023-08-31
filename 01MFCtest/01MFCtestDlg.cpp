@@ -68,6 +68,8 @@ BEGIN_MESSAGE_MAP(CMy01MFCtestDlg, CDialogEx)
 	ON_BN_CLICKED(IDC_BUTTON2, &CMy01MFCtestDlg::OnBnClickedButton2)
 	ON_BN_CLICKED(IDC_BUTTON1, &CMy01MFCtestDlg::OnBnClickedButton1)
 	ON_BN_CLICKED(IDC_BUTTON3, &CMy01MFCtestDlg::OnBnClickedButton3)
+	ON_BN_CLICKED(IDC_BUTTON4, &CMy01MFCtestDlg::OnBnClickedButton4)
+	ON_BN_CLICKED(IDC_BUTTON5, &CMy01MFCtestDlg::OnBnClickedButton5)
 END_MESSAGE_MAP()
 
 
@@ -171,6 +173,18 @@ void CMy01MFCtestDlg::OnBnClickedButton1()
 
 
 void CMy01MFCtestDlg::OnBnClickedButton3()
+{
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CMy01MFCtestDlg::OnBnClickedButton4()
+{
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CMy01MFCtestDlg::OnBnClickedButton5()
 {
 	// TODO: 在此添加控件通知处理程序代码
 }
