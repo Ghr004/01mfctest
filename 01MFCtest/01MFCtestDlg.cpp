@@ -65,6 +65,8 @@ BEGIN_MESSAGE_MAP(CMy01MFCtestDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDC_BUTTON2, &CMy01MFCtestDlg::OnBnClickedButton2)
+	ON_BN_CLICKED(IDC_BUTTON1, &CMy01MFCtestDlg::OnBnClickedButton1)
 END_MESSAGE_MAP()
 
 
@@ -153,3 +155,15 @@ HCURSOR CMy01MFCtestDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CMy01MFCtestDlg::OnBnClickedButton2()
+{
+	// TODO: 在此添加控件通知处理程序代码
+}
+
+
+void CMy01MFCtestDlg::OnBnClickedButton1()
+{
+	// TODO: 在此添加控件通知处理程序代码
+}
